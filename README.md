@@ -1,6 +1,6 @@
 # Move all zeroes in a list to the end.
-
-###Constraints
+ 
+### Constraints
 
    * Is the input an array of ints?
        * Yes
