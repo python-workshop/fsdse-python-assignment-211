@@ -1,6 +1,6 @@
-def build(nums):
+def move_zeroes(nums):
     if nums is None:
-        return False
+        raise TypeError('nums cannot be None')
     pos = 0
     for num in nums:
         if num != 0:
@@ -8,6 +8,3 @@ def build(nums):
             pos += 1
     if pos < len(nums):
         nums[pos:] = [0] * (len(nums) - pos)
-        print(nums)
-
-
